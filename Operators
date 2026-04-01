@@ -4,3 +4,16 @@ if not is_raining:
     print("Go outside")
 else:
 	print("Don't go outside")
+
+
+#short hand if
+a=20
+b=40
+if a>b:print('True')
+else:print('False')
+
+
+#short hand if else/Ternary operators
+a=int(input())
+b=int(input())
+print('True')if a>b  else print('False')
