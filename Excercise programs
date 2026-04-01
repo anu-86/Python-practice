@@ -1,0 +1,52 @@
+1.
+age=17
+if age>18:
+	print('eligble for vote')
+elif age==18:
+	print('you can vote now')
+else:
+	print('not elgible for vote ')
+
+2.
+a=int(input())
+b=int(input())
+if a and b >35:
+	print('pass')
+else:
+	print('Fail')
+
+3.
+x=int(input())
+if x > 0:
+    if x % 2 == 0:
+        print("Positive Even")
+    else:
+        print("Positive Odd")
+else:
+    if x % 2 == 0:
+        print("Negative Even")
+    else:
+        print("Negative Odd")
+4.
+x=int(input('Enter your first number'))
+y=int(input('Enter your second number'))
+z=int(input('Enter your Third number'))
+if x>y and x>z:
+	print('x is largest')
+elif y>x and y>z:
+	print('y is largest')
+elif z>x and z>y:
+	print('z is largest')
+	
+else  :
+	print('Both are equal')
+5.
+num=int(input('Enter your Marks'))
+if num>=90:
+	print('Grade A')
+elif num>=75:
+	print('Grade B')
+elif num>=50:
+	print('Grade c')
+else:
+	print('Fail')
