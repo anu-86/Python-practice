@@ -1,0 +1,6 @@
+is_raining = True
+
+if not is_raining:
+    print("Go outside")
+else:
+	print('Not go outside')
