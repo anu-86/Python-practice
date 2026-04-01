@@ -1,0 +1,39 @@
+# Number positive or Negative 
+num = int(input())
+
+if num > 0:
+    print("Number is positive")
+elif num == 0:
+    print("Number is zero")
+else:
+    print("Number is negative")
+
+#Even or odd
+a=int(input())
+
+if a %2==0:
+print('Even')
+else:
+print('Odd') 
+
+
+#Largest  of 2 Numbers
+a=int(input())
+b=int(input())
+
+if a>b:
+print('A is Largest')
+else:
+print('B is Largest')
+
+#Largest of 3 Numbers
+a = 19
+b = 20
+c = 25
+
+if a > b and a > c:
+    print("A is Largest")
+elif b > a and b > c:
+    print("B is Largest")
+else:
+    print("C is Largest")
