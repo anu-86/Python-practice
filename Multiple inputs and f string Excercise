@@ -1,0 +1,18 @@
+1.
+a,b=map(int,input().split())
+print(a+b)
+print(f"sum of {a} and {b} is {a+b}")
+
+2.
+
+name,age=input( ).split()
+print(f"hello {name}, your age is {age}")
+
+3.
+num="2 , 3 , 4"
+a,b,c=map(int,num.split(","))
+print(f"product of {a},{b} and {c}is {a*b*c}")
+
+4.
+a,b=map(int,input().split())
+print(f"Total is {a+b}and Average is {a+b/2}")
