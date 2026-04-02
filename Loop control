@@ -1,0 +1,21 @@
+#range
+for i in range(2,20,2):
+	print(i)
+
+#break
+for i in range(11):
+	if i == 6:
+		break
+	print(i)
+
+#continue
+for i in range (11):
+	if i==5:
+		continue
+	print(i)
+
+#pass
+for i in range(6):
+	if i==3:
+		pass
+	print(i)
