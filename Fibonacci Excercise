@@ -1,0 +1,34 @@
+1.
+x=int(input('How many numbers :'))
+a=0
+b=1
+
+for i in range(x):
+	print(a)
+	c=a+b
+	a=b
+	b=c
+
+2.
+
+a=0
+b=1
+
+while a<=100:
+	print(a)
+	c=a+b
+	a=b
+	b=c
+
+3.
+n=10
+a=0
+b=1
+sum=0
+
+for i in range(n):
+	sum+=a
+	c=a+b
+	a=b
+	b=c
+print(sum)
