@@ -1,0 +1,63 @@
+#1.Create a tuple with 6 numbers and print the 3rd element
+a=(10,20,30,40,50,60)
+print(a[2])
+
+#2.Create a tuple (10, 20, 30, 40, 50)����Print elements from index 1 to 3 using slicing
+x=(10,20,30,40,50)
+print(x[1:4])
+
+#3.Create a tuple (5, 10, 5, 20, 5)����Count how many times 5 appears
+b=(5,10,5,20,5)
+print(b.count(5))
+
+#4.Create a tuple (10, 20, 30, 40)����Find the index of value 30
+a=(10,20,30,40)
+print(a.index(30))
+
+#5.Create a tuple (1,2,3,4,5,6)����Print only even numbers
+a=(1,2,3,4,5,6)
+for i in a:
+	if i%2==0:
+		print(i)
+		
+#6.Create a tuple (10,20,30,40)����Find the sum of all elements
+a=(10,20,30,40)
+sum=0
+for i in a:
+	sum+=i
+print(sum)
+
+#7.Create a tuple (100,200,300,400,500)����Find the maximum value using loop
+a=(100,200,300,400,500)
+max=100
+for i in a:
+	if i>max:
+		max=i
+print(max)
+
+	
+	
+	
+	
+#8.Create a tuple (1,2,3,4,5)👉 Count how many values are greater than 3
+
+a=(1,2,3,4,5)
+count=0
+for i in a:
+	if i>3:
+		count+=1
+print(count)
+
+#9.Create a tuple (10,20,30)? Unpack into variables and print each	
+	
+x=(10,20,30)
+a,b,c=x
+print(a,b,c)
+
+#10.Create a tuple (1,2,3,4,5)? Unpack using * operator? Store first value in a, last in c, rest in b
+
+t=(1,2,3,4,5)
+a=t[0]
+c=t[4]
+b=t
+print(a,b,c)
