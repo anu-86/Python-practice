@@ -1,0 +1,75 @@
+#Create a set with values:10, 20, 30, 40, 50? Print the set
+
+a={10,20,30,40,50}
+print(a)
+
+#Create a set with duplicates:1, 2, 2, 3, 3, 4, 5? Print final set? Print number of elements
+
+a={1,2,2,3,3,4,5}
+print(len(a))
+print(a)
+
+
+#.Convert list into setPythona = [10, 20, 20, 30, 40]? Convert → print
+
+a=set([10,20,20,30,40])
+print(a)
+
+#.Create empty set? Add values 10, 20, 30 using method? Print result
+
+a=set()
+a.update([10,20,30])
+print(a)
+
+#.Pythona = {10, 20, 30}? Add 40? Remove 20? Print final set
+
+a={10,20,30}
+a .add(40)
+a.remove(20)
+print(a)
+
+#.Pythona = {1, 2, 3}b = {3, 4, 5}? Find:Union Intersection
+
+a={1,2,3}
+b={3,4,5}
+print(a.union(b))
+print(a.intersection(b))
+
+#.Pythona = {1, 2, 3, 4}b = {3, 4, 5, 6}? Find:a - b b - a
+
+a={1,2,3,4}
+b={3,4,5,6}
+print(a-b)
+print(b-a)
+
+#.Pythona = {1, 2, 3} b = {2, 3, 4}? Find symmetric difference
+
+a={1,2,3}
+b={2,3,4}
+print(a.symmetric_difference(b))
+
+#.PythonA = {1, 2} B = {1, 2, 3, 4}? Check: A subset of B B superset of A
+
+a={1,2}
+b={1,2,3,4}
+print(a.issubset(b))
+print(a.issuperset(b))
+
+#.Python A = {1, 2, 3} B = {4, 5, 6}? Check: Are they disjoint?
+
+a={1,2,3}
+b={4,5,6}
+print(a.isdisjoint(b))
+
+#.a = {10, 20, 30, 40}? Remove random element using method ? Print updated set
+
+a={10,20,30,40}
+a.pop()
+print(a)
+
+#.a = [1,2,2,3,4,4,5,6,6]? Convert into set ? Find how many unique values Print count
+
+a=set([1,2,2,3,4,4,5,6,6])
+print(a)
+print(len(a))
+
