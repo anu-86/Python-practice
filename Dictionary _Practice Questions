@@ -1,0 +1,78 @@
+#Create & Access ? Print only name
+
+d = {"name": "Anu", "age": 20}
+print(d.get('name'))
+
+#Add value Python d = {"a": 1} ? Add "b": 2 and print
+
+d={'a':1}
+d['b']=2
+print(d)
+
+#Update value Pythond = {"x": 10}? Change value to 50
+
+d={'x':10}
+d.update({'x':50})
+print(d)
+
+#Check key Python d = {"a": 1, "b": 2}? Check "a" iruka?
+
+d={'a':1,'b':2}
+print('a'in d.keys())
+
+#Loop dictionary Python d = {"a": 10, "b": 20} ? Print only values using loop
+
+d={'a':10,'b':20}
+for i in d:
+	print(i,d[i])
+	
+#Delete element Python d = {"name": "Ram", "age": 40} ? Remove "age"
+
+d={'name':'Ram','age':40}
+del d['age']
+print(d)
+
+#pop() use pannunga Python d = {"x": 100, "y": 200} ? "x" remove pannitu value print pannunga
+
+d={'x':100,'y':200}
+element=d.pop('x')
+print(d)
+print(element)
+
+#get() method Python d = {"a": 1}? "b" key check pannitu default "Not Found" print pannunga
+
+d={'a':1}
+print('b'in d.keys(),'Not found')
+
+# Count values > 10 Python d = {"a": 5, "b": 15, "c": 25}? 10 vida perusa irukura values count pannunga
+
+d={'a':5,'b':15,'c':25}
+count=0
+for v in d.values():
+		if v>10:
+			count+=1
+print(count)
+
+#Nested dictionary access Pythond = {"s1": {"mark": 80}, "s2": {"mark": 90}}? "s2" mark print pannunga
+
+d = {
+    "s1": {"mark": 80},
+    "s2": {"mark": 90}
+}
+print(d['s2']['mark'])
+
+#Dictionary comprehension? Create dictionary:1 → 1 2 → 4 3 → 9 4 → 16
+
+d={1:1,2:4,3:9,4:16}
+print(d)
+
+#Swap keys & values Python d = {"a": 1, "b": 2}? Reverse pannunga
+
+d={'a':1,'b':2}
+element={v:k for k,v in d.items()}
+print(element)
+
+#Sum of all values ? Question Python d = {"a": 10, "b": 20, "c": 30}
+
+d = {"a": 10, "b": 20, "c": 30}
+print(sum(d.values()))
