@@ -1,0 +1,46 @@
+#Traverse in dictionary
+
+d={0:'Troll',1:'Geek'}
+for i in d:
+	print(i,d[i])
+	
+	
+#Functions in dictionary
+#Adding element
+
+d={'Name':'Ram','age':'40'}
+d['Work']='IT'
+print(d)
+
+
+#deleting element
+d={'Name':'Ram','age':'40'}
+d['Work']='IT'
+del d['age']
+print(d)
+
+#.pop()
+d={'Name':'Ram','age':40,'work':'IT'}
+print(d.pop('age'))
+
+#.update()
+
+d={0:'Troll',1:'Geek'}
+E={2:'Hello',3:'World'}
+d.update(E)
+print(d)
+
+#key()&values()
+d={'Name':'Ram','age':40,'work':'IT'}
+print(d.keys())
+print(d.values())
+
+#item
+d={'Name':'Ram','age':40,'work':'IT'}
+print(d.items())
+print('Name' in d)
+
+#in opreator
+d={'Name':'Ram','age':40,'work':'IT'}
+print('Name' in d)
+print(40 in d.values())
