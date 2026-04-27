@@ -1,0 +1,74 @@
+#Reverse a string # Input: "Python"
+
+
+a='python'
+print(a[::-1])
+
+#Count vowels # Input: "Anushiya"
+# Output: 5   (a, u, i, a)
+
+b='Anushiya'
+vowels='aeiou'
+count=0
+for kv in b.lower():
+	if kv in vowels:
+		count+=1
+print(count)
+
+#Remove spaces Python
+# Input: "Hello World"
+# Output: "HelloWorld"
+
+a='hello world'
+print(a.replace(' ',''))
+
+## Input: "I am learning Python"
+# Output: 4
+
+a='I am learning python'
+word=a.split()
+print(len(word))
+
+#Convert first letter to uppercase Python
+# Input: "anu"
+# Output: "Anu"
+a='anu'
+b=a[0].upper()+'nu'
+print(b)
+
+#Check palindrome Python
+# Input: "madam"
+# Output: Palindrome
+a='madam'
+if a ==a[::-1]:
+	print('palindrome Number')
+else:
+	print('Not a palindrome')
+
+#  Reverse a string Python
+# Input: "Data"
+# Output: "ataD"
+
+a='Data'
+print(a[::-1])
+
+
+#Count words Python
+# Input: "I love Python"
+# Output: 3
+a='I love python'
+words=a.split()
+print(len(words))
+
+#Count occurrences of a character Python
+# Input: "banana", character = "a"
+# Output: 3
+
+a='banana'
+print(a.count('a'))
+
+#Convert entire string to lowercase Python
+# Input: "HELLO ANU"
+# Output: "hello anu"
+a='HELLO ANU'
+print(a.lower())
