@@ -1,0 +1,93 @@
+#Q1
+'''Create a function named welcome() that prints:
+Plain text
+Welcome to Python'''
+
+def welcome():
+	print('welcome to python')
+welcome()
+
+#Q2
+'''Create a function named college() that prints:
+Plain text
+I am studying B.Tech IT'''
+
+def college():
+	print('I am studying B.Tech IT')
+college()
+
+#Q3
+'''Create a function star() that prints:
+Plain text
+*****
+Call it 3 times.'''
+def star():
+	print('*****')
+star()
+star()
+star()
+
+#Q4
+'''Create a function named morning().
+It should print:
+Plain text
+Good Morning
+Call the function 2 times.'''
+
+def morning():
+	print('Good Morning')
+morning()
+morning()
+
+#Q5
+'''Create a function named python_fun().
+It should print:
+Plain text
+I Love Python
+Call the function 4 times.'''
+
+def python_fun():
+	print('I Love Python')
+python_fun()
+python_fun()
+python_fun()
+python_fun()
+
+#Q6
+'''Create a function named line().
+It should print:
+Plain text
+----------
+Call the function 3 times.'''
+def line():
+	print('----------')
+line()
+line()
+line()
+
+'''Q7
+Create two functions:
+name() → prints Anu
+course() → prints B.Tech IT
+Call both functions.'''
+
+def name():
+	print('Anu')
+name()
+def course():
+	print('B.Tech IT')
+course()
+
+'''Q8
+Create a function named welcome().
+It should print:
+Plain text
+Welcome
+Call the function and then use a normal print() statement to display:
+Plain text
+Python Learning'''
+
+def welcome():
+	print('Welcome')
+welcome()
+print('Python Learning')
