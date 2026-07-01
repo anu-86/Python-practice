@@ -1,0 +1,54 @@
+'''Q1
+Create a function number() that returns 100.
+Store the returned value in a variable and print it.'''
+
+def number():
+	return 100
+y=number()
+print(y)
+
+'''Q2
+Create a function country() that returns "India".
+Print the returned value.'''
+
+def country():
+	return 'india'
+g=country()
+print(g)
+
+'''Q3
+Create a function multiply() that returns 6 * 8.
+Store the returned value in a variable named result and print it.'''
+
+def multiply():
+	return 6*8
+result=multiply()
+print(result)
+
+'''Q4
+Create a function language() that returns "Python".
+Store it in a variable named lang and print it.'''
+
+def language():
+	return 'python'
+lang=language()
+print(lang)
+
+'''Q5
+Create a function message() that returns "Keep Learning".
+Print the returned value by calling the function directly (without storing it in a variable).'''
+
+def message():
+	return ('keep learning')
+print(message())
+
+'''Q6Create a function add() that:
+returns 25 + 15
+stores the returned value in a variable named total
+prints total'''
+
+def add():
+	return 25+ 15
+total=add()
+print(total)
+
