@@ -52,3 +52,35 @@ def add():
 total=add()
 print(total)
 
+'''Q7 Create a function fruit() that returns "Apple".
+Store the returned value in a variable named item and print it.'''
+
+def fruit():
+	return 'Apple'
+item=fruit()
+print(item)
+
+'''Q8.Create a function subtract() that returns 50 - 18.
+Store the returned value in a variable named answer and print it.'''
+
+def subtract():
+	return 50-18
+answer=subtract()
+print(answer)
+
+'''Q9.Create a function college() that returns "B.Tech IT".
+Print the returned value directly by calling the function (do not store it in a variable).
+'''
+def college():
+	return 'B.Tech IT'
+print(college())
+
+'''Q10.Create a function marks() that returns 95.
+Store the returned value in a variable named score and print the following output:
+My Score: 95'''
+
+def marks():
+	return 95
+score=marks()
+print('My Score:',score)
+
