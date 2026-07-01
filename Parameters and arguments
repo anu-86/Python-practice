@@ -1,0 +1,52 @@
+'''Q1
+Create a function greet(name).
+When called with "Anu", it should print:
+Hello Anu'''
+
+def greet(name):
+print('Hello',name)
+greet('Anu')
+
+
+'''Q2
+Create a function city(place).
+Call it with:
+Chennai
+Salem'''
+
+def city(place):
+print(place)
+city('Chennai')
+city('Salem')
+
+
+'''Q3
+Create a function age(num).
+Call it with your age.
+Output format:
+Age: 20
+'''
+
+def age(num):
+print('Age:',num)
+age(20)
+
+
+'''Q4
+Create a function course(course_name).
+Call it with:
+Data Analytics'''
+
+def course(course_name):
+print(course_name)
+course('Data Analytics')
+
+
+'''Q5
+Create a function movie(movie_name).
+Call it two times with two different movie names.'''
+
+def movie(movie_name):
+print(movie_name)
+movie('Sirai')
+movie('pencil')
