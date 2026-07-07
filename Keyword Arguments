@@ -1,0 +1,55 @@
+'''Practice Questions
+Q1
+Create a function employee(name, salary).
+Call it using keyword arguments:
+name = "Anu"
+salary = 30000'''
+
+def employee(name,salary):
+	print(name)
+	print(salary)
+employee(name='Anu',salary=30000)
+
+'''Q2
+Create a function book(title, author).
+Call it using keyword arguments in reverse order.'''
+
+def book(title, author):
+    print(title)
+    print(author)
+
+book(author="John Lasseter", title="Toy Story")
+
+'''Q3
+Create a function mobile(brand, price).
+Call it using:
+brand = "Samsung"
+price = 25000'''
+
+def mobile(brand,price):
+	print(brand)
+	print(price)
+mobile(brand='Samsung',price=25000)
+
+'''Q4
+Create a function movie(name, year).
+Call it using keyword arguments in any order.
+Movie:
+Name: "Leo"
+Year: 2023'''
+
+def movie(name,year):
+	print(name)
+	print(year)
+movie(name='Leo',year=2023)
+
+'''Q5
+Create a function student(name, course).
+Call it by:
+Passing name as a positional argument.
+Passing course as a keyword argument.'''
+
+def student(name,course):
+	print(name)
+	print(course)
+student('Anu',course='B.Tech')
