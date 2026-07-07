@@ -1,0 +1,48 @@
+'''Practice Questions
+Q1
+Create a function country() with a default argument "India".
+Call the function without passing any argument.'''
+
+
+def country(count="lndia"):
+	print(count)
+country()
+
+'''Q2
+Create a function fruit(name="Apple").
+Call the function with "Mango".'''
+
+def fruit(name='Apple'):
+	print(name)
+fruit('Mango')
+
+'''Q3
+Create a function course(course_name="Python").
+Call it:
+Without an argument.
+With "Data Analytics".'''
+
+def course(course_name='Python'):
+	print(course_name)
+course('Data Analytics')
+course()
+
+'''Q4
+Create a function marks(score=100).
+Call the function with 95.'''
+
+def marks(score=100):
+	print(score)
+marks(95)
+
+'''Q5
+Create a function city(place="Chennai").
+Call the function:
+Without an argument.
+With "Coimbatore".'''
+
+
+def city(place='Chennai'):
+	print(place)
+city()
+city('Coimbatore')
