@@ -1,0 +1,58 @@
+'''Practice Questions
+
+Q1
+Create a function student(**kwargs).
+Call it with:
+name="Anu"
+age=20
+Print the entire dictionary.'''
+
+def student(**kwargs):
+print(kwargs)
+student(name='Anu',age=20)
+
+'''Q2
+Create a function employee(**kwargs).
+Call it with:
+name="Ravi"
+salary=50000
+Print only the salary.'''
+
+def employee(**kwargs):
+print(kwargs['salary'])
+employee(name='Ravi',salary=50000)
+
+'''Q3
+Create a function mobile(**kwargs).
+Call it with:
+brand="Samsung"
+price=25000
+Print only the brand.'''
+
+def mobile(**kwargs):
+print(kwargs['brand'])
+mobile(brand='Samsung',price=25000)
+
+'''Q4
+Create a function book(**kwargs).
+Call it with:
+title="Python"
+author="Guido"
+Use a for loop with .items() to print both the key and value.'''
+
+def book(**kwargs):
+for key,value in kwargs.items():
+print(key ,':' ,value)
+book(title='Python',author='Guido')
+
+'''Q5
+Create a function movie(**kwargs).
+Call it with:
+name="Leo"
+year=2023
+hero="Vijay"
+Print the entire dictionary.'''
+
+def movie(**kwargs):
+print(kwargs)
+movie(name='Leo',year=2023,hero='Vijay')
