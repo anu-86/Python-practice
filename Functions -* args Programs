@@ -1,0 +1,62 @@
+'''Practice Questions
+Q1
+Create a function colors(*args).
+Call it with:
+"Red"
+"Blue"
+"Green"
+Print the entire args.'''
+
+def colors(*args):
+print(args)
+colors('Red','Blue','Green')
+
+
+'''Q2
+Create a function numbers(*args).
+Call it with:
+10
+20
+30
+40
+Print the first value using indexing.'''
+
+def numbers(*args):
+print(args[0])
+numbers(10,20,30,40)
+
+'''Q3
+Create a function students(*args).
+Call it with three student names.
+Use a for loop to print each name.'''
+
+def students(*args):
+for i in args:
+print(i)
+students('Anu','Madhu','Moni')
+
+'''Q4
+Create a function marks(*args).
+Call it with:
+85
+90
+95
+Print the second mark using indexing.'''
+
+def marks(*args):
+print(args[1])
+marks(85,90,95)
+
+
+'''Q5
+Create a function cities(*args).
+Call it with:
+"Chennai"
+"Salem"
+"Coimbatore"
+"Madurai"
+Print the entire tuple.'''
+
+def cities(*args):
+print(args)
+cities('Chennai','Salem','Coimbatore','Madurai')
