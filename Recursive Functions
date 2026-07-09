@@ -1,0 +1,58 @@
+'''Practice Questions
+
+Q1
+Create a function countdown(n).
+Print numbers from 5 to 1 using recursion.
+Call the function with 5.'''
+
+def countdown(n):
+	if n ==0:
+		return
+	print(n)
+	countdown(n-1)
+countdown(5)
+
+'''Q2
+Create a function countup(n).
+Print numbers from 1 to 5 using recursion.
+Call the function with 1.'''
+
+def countup(n):
+	if n == 6:
+		return
+	print(n)
+	countup(n+1)
+countup(1)
+
+'''Q3
+Create a function display(n).
+Print numbers from 3 to 1 using recursion.
+Call the function with 3.'''
+
+def display(n):
+	if n == 0:
+		return
+	print(n)
+	display(n-1)
+display(3)
+
+'''Q4
+Create a function even(n).
+Print:
+2
+4
+6
+using recursion.
+Call the function with 2.'''
+
+def even(n):
+	if n ==8:
+		return
+	print(n)
+	even(n+2)
+even(2)
+
+Q5 
+Question: What will happen if a recursive function does not have a base case?
+Answer:
+The function keeps calling itself forever until Python raises a RecursionError (maximum recursion depth exceeded).
