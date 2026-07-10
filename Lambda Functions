@@ -1,0 +1,45 @@
+'''Practice Questions
+
+Q1
+Create a lambda function add that adds two numbers.
+Call it with:
+10
+15'''
+
+add=lambda a,b:a+b
+print(add(10,15))
+
+'''Q2
+Create a lambda function square that returns the square of a number.
+Call it with:
+8'''
+
+square=lambda b:b*b
+print(square(8))
+
+'''Q3
+Create a lambda function greet that returns:
+Hello <name>
+Call it with:
+Anu'''
+
+greet = lambda name: "Hello " + name
+print(greet('Anu'))
+
+'''Q4
+Create a lambda function multiply that multiplies two numbers.
+Call it with:
+6
+7'''
+
+multiply=lambda a,b:a*b
+print(multiply(6,7))
+
+'''Q5
+Create a lambda function message with no parameters.
+It should return:
+Keep Learning Python
+Print the returned value.'''
+
+message=lambda :'Keep Learning Python'
+print(message())
